@@ -39,4 +39,3 @@ document.addEventListener('DOMContentLoaded', loadFormData);
 // Add event listeners
 form.addEventListener('input', saveFormData);
 form.addEventListener('submit', handleSubmit);
-
