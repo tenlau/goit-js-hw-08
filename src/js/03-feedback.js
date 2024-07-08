@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
       email: emailInput.value,
       message: messageTextarea.value
     });
-    localStorage.removeItem(STORAGE_KEY);
-    form.reset();
+    localStorage.removeItem(STORAGE_KEY); // Clear specific item from local storage
+    form.reset(); // Clear form fields
   });
 
   // Load form data from local storage and populate form fields
